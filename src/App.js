@@ -11,7 +11,7 @@ function App() {
       <Header data = {FormData.topic} />
      <form>
      {FormData.fields.map(query => {
-       return <Card content = {query} />
+       return <Card key={query.id} content = {query} />
 
      })}
      </form>

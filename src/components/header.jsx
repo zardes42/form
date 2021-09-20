@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import Card from './card' ;
+import React from 'react';
 // *****content *****
 //  header
 //  description
@@ -28,7 +27,7 @@ class Header extends React.Component {
                    <p>{description}</p>
                    <hr style= {{width:'500px'}}/>
 
-                   <p>{auth_mail}  <a href='#'>Switch account</a></p>
+                   <p>{auth_mail}  <a href='/'>Switch account</a></p>
                    <p style= {{color : 'red'}}> * Required</p>
 
         </div>;
